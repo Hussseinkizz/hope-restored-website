@@ -107,7 +107,6 @@
 
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import blogPosts from "../data/blogPosts";
 import "../styles/blogdetail.css";
 
 const BlogDetail = () => {
