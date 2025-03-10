@@ -22,6 +22,118 @@
 }
 
 .programs-hero p {
+  /* font-size: 1.3rem; */
+  font-weight: 300;
+  /* max-width: 600px; */
+}
+
+/* Programs List */
+.programs-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 60px 20px; */
+  /* gap: 50px; */
+}
+
+/* Alternating Grid Layout */
+.program-card {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.program-card.left {
+  flex-direction: row;
+}
+
+.program-card.right {
+  flex-direction: row-reverse;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Program Image */
+.program-image img {
+  /* width: 320px;
+  height: 250px; */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Program Content */
+.program-content {
+  /* padding: 20px; */
+  text-align: left;
+}
+
+.program-content h2 {
+  font-size: 1.7rem;
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.program-content p {
+  /* font-size: 1rem; */
+  color: #4B5563;
+  line-height: 1.5;
+}
+
+/* Smooth Scroll Animation */
+.program-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.program-card.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+.programs-page {
+  font-family: "Arial", sans-serif;
+  color: #1E3A8A; /* Primary Color */
+}
+
+/* Hero Section */
+.programs-hero {
+  background: url("/assets/IMG-20240915-WA0106.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.programs-hero h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.programs-hero p {
   font-size: 1.3rem;
   font-weight: 300;
   max-width: 600px;
@@ -96,4 +208,90 @@
 .program-card.appear {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust Hero Section */
+  .programs-hero h1 {
+    font-size: 2.2rem; /* Smaller title on mobile */
+  }
+
+  .programs-hero p {
+    font-size: 1.1rem; /* Smaller description */
+    max-width: 500px; /* Reduce the width for smaller screens */
+  }
+
+  /* Programs List */
+  .programs-list {
+    padding: 40px 10px; /* Adjust padding for smaller screens */
+    gap: 30px; /* Reduce the gap between cards */
+  }
+
+  /* Program Cards Layout */
+  .program-card {
+    flex-direction: column; /* Stack items vertically on mobile */
+    max-width: 100%; /* Ensure full width of the card */
+  }
+
+  .program-card.left, .program-card.right {
+    flex-direction: column; /* Make left and right layouts stack vertically */
+  }
+
+  .program-image img {
+    width: 100%; /* Make the image full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .program-content {
+    padding: 15px; /* Reduce padding for mobile */
+  }
+
+  .program-content h2 {
+    font-size: 1.4rem; /* Smaller title on mobile */
+  }
+
+  .program-content p {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust Hero Section */
+  .programs-hero h1 {
+    font-size: 1.8rem; /* Even smaller title for very small screens */
+  }
+
+  .programs-hero p {
+    font-size: 1rem; /* Smaller description */
+    max-width: 100%; /* Allow full width */
+  }
+
+  /* Programs List */
+  .programs-list {
+    padding: 30px 10px; /* Reduce padding further */
+    gap: 20px; /* Further reduce the gap between cards */
+  }
+
+  /* Program Cards Layout */
+  .program-card {
+    padding: 10px; /* Add some space between text and image */
+  }
+
+  .program-card .program-content {
+    padding: 10px; /* Reduce padding inside content */
+  }
+
+  .program-image img {
+    width: 100%; /* Full width image */
+    height: 200px; /* Adjust height for smaller screens */
+  }
+
+  .program-content h2 {
+    font-size: 1.3rem; /* Smaller title for very small screens */
+  }
+
+  .program-content p {
+    font-size: 0.85rem; /* Smaller description for very small screens */
+  }
 }

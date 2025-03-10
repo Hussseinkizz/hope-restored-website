@@ -144,23 +144,23 @@ const About = () => {
         <div className="team-members">
           <div className="team-card">
             <img src="/assets/IMG_0598.JPG" alt="Founder" />
-            <h3>Jane Doe</h3>
+            <h3>Lubega Bravel</h3>
             <p>Founder & CEO</p>
           </div>
           <div className="team-card">
             <img src="/assets/IMG_0456.JPG" alt="Project Manager" />
-            <h3>John Smith</h3>
+            <h3>Brayan</h3>
             <p>Project Manager</p>
           </div>
           <div className="team-card">
             <img src="/assets/IMG_0387.JPG" alt="Project Manager" />
-            <h3>John Smith</h3>
-            <p>Project Manager</p>
+            <h3>Member</h3>
+            <p>volunteer</p>
           </div>
           <div className="team-card">
             <img src="/assets/IMG_0329.JPG" alt="Project Manager" />
-            <h3>John Smith</h3>
-            <p>Project Manager</p>
+            <h3>Member</h3>
+            <p>volunteer</p>
           </div>
         </div>
       </section>

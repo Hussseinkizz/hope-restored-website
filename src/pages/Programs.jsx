@@ -9,7 +9,7 @@ const programsData = [
     image: "/assets/IMG-20241010-WA0025.jpg",
   },
   {
-    title: "",
+    title: "Health Care Support",
     description:
       "Through medical camps, healthcare supplies, and awareness programs, we ensure communities receive the medical care they need.",
     image: "/assets/IMG-20240914-WA0098.jpg",
