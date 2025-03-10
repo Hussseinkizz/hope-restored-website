@@ -1,6 +1,7 @@
 
 import React from "react";
-import { Link } from "react-router-dom"; // Import React Router
+import { Link } from "react-router-dom";
+import blogPosts from "../data/blogPosts";
 import "../styles/blog.css";
 
 const Blog = () => {
