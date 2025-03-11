@@ -23,7 +23,8 @@ const Footer = () => {
             <Email /> info@hoperestored.org
           </p>
           <p>
-            <Phone /> +256 123 456 789
+            <Phone /> +256 789 745 530 <br/>
+                      +256 754 979 966
           </p>
         </div>
 

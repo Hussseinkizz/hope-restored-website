@@ -10,31 +10,25 @@ const About = () => {
       image: "/assets/IMG_0477.JPG",
       quote:
         "HOPE RESTORED changed my life by providing me with education and opportunities!",
-      name: "Sarah A.",
+      name: "Beneficiary.",
     },
     {
       image: "/assets/IMG_0481.JPG",
       quote:
-        "I learned valuable job skills that helped me start my own business!",
-      name: "Grace K.",
+        "I have gained school requirements for my education!",
+      name: "Beneficiary.",
     },
     {
       image: "/assets/IMG_0299.JPG",
       quote:
-        "Thanks to their healthcare programs, my family received free medical care.",
-      name: "John M.",
-    },
-    {
-      image: "/assets/IMG_0450.JPG",
-      quote:
-        "I learned valuable job skills that helped me start my own business!",
-      name: "Grace K.",
+        "Thanks to their Outreach programs, my family received essential basic needs.",
+      name: "Beneficiary.",
     },
     {
       image: "/assets/IMG_0478.JPG",
       quote:
-        "I learned valuable job skills that helped me start my own business!",
-      name: "Grace K.",
+        "Hope Restored provided girl child health care, thanks!",
+      name: "Beneficiary.",
     },
   ];
 
@@ -129,7 +123,7 @@ const About = () => {
           </div>
           <div className="stat">
             <h3>🏥 20+</h3>
-            <p>Medical outreach programs held</p>
+            <p>Health Outreach programs held</p>
           </div>
           <div className="stat">
             <h3>💼 15+</h3>
@@ -143,24 +137,38 @@ const About = () => {
         <h2>Meet Our Team</h2>
         <div className="team-members">
           <div className="team-card">
-            <img src="/assets/IMG_0598.JPG" alt="Founder" />
-            <h3>Lubega Bravel</h3>
-            <p>Founder & CEO</p>
+            <img src="/assets/IMG_0598.JPG" alt="" />
+            <h3>Bravel Lubega</h3>
+            <p>Co-founder &</p>
+            <p>Senior Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0456.JPG" alt="Project Manager" />
-            <h3>Brayan</h3>
-            <p>Project Manager</p>
+            <img src="/assets/IMG_0456.JPG" alt="" />
+            <h3>Mukalazi Brian</h3>
+            <p>Managing Director &</p>
+            <p>Project Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0387.JPG" alt="Project Manager" />
-            <h3>Member</h3>
-            <p>volunteer</p>
+            <img src="assets/IMG_0448.JPG" alt="" />
+            <h3>Waswa Jackson</h3>
+            <p>Child Advocate &</p>
+            <p>Assistant Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0329.JPG" alt="Project Manager" />
-            <h3>Member</h3>
-            <p>volunteer</p>
+            <img src="assets/IMG_0450.JPG" alt="" />
+            <h3>Bogere Robert</h3>
+            <p>Pastor &</p>
+            <p>Board Member</p>
+          </div>
+          <div className="team-card">
+            <img src="/assets/IMG_0387.JPG" alt="" />
+            <h3>Jowie</h3>
+            <p>Procurement officer</p>
+          </div>
+          <div className="team-card">
+            <img src="/assets/IMG_0329.JPG" alt="" />
+            <h3>Joanna</h3>
+            <p>Volunteer's Liason</p>
           </div>
         </div>
       </section>
@@ -190,7 +198,13 @@ const About = () => {
             healthcare, and empowerment programs. Together, we can create a
             brighter future.
           </p>
-          <button>Get Involved</button>
+          <a
+            href="https://tally.so/r/wALVAW"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Get Involved</button>
+          </a>
         </div>
       </section>
     </div>
