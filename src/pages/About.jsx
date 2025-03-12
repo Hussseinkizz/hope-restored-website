@@ -159,7 +159,7 @@ const About = () => {
             <h3>Bogere Robert</h3>
             <p>Pastor &</p>
             <p>Board Member</p>
-          </div>
+          </div> 
           <div className="team-card">
             <img src="/assets/IMG_0387.JPG" alt="" />
             <h3>Jowie</h3>
@@ -169,6 +169,16 @@ const About = () => {
             <img src="/assets/IMG_0329.JPG" alt="" />
             <h3>Joanna</h3>
             <p>Volunteer's Liason</p>
+          </div>
+          <div className="team-card">
+            <img src="assets/_image.jpg" alt="" />
+            <h3>Melchior</h3>
+            <p>Organization Communicator</p>
+          </div>
+          <div className="team-card">
+            <img src="assets/image_.jpg" alt="" />
+            <h3>Zipporah</h3>
+            <p>Administrator</p>
           </div>
         </div>
       </section>

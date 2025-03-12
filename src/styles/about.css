@@ -66,10 +66,18 @@
     background: #F3F4F6;
   }
     
-  .team-members {
+  /* .team-members {
     display: flex;
     justify-content: center;
     gap: 20px;
+  } */
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns per row */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
     
   .team-card {
@@ -349,6 +357,7 @@
 
   .team-members {
     gap: 15px;
+    display: grid;
   }
 
   .team-card {
@@ -520,5 +529,23 @@
   .call-to-action button {
     font-size: 0.9rem;
     padding: 8px 16px;
+  }
+}
+
+/* ============================
+   Responsive Adjustments (New)
+============================ */
+
+/* For tablets: Adjust to 2 columns */
+@media screen and (max-width: 1024px) {
+  .team-members {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
+  }
+}
+
+/* For mobile screens: Adjust to 1 column */
+@media screen and (max-width: 600px) {
+  .team-members {
+    grid-template-columns: repeat(1, 1fr); /* Stack in 1 column */
   }
 }
