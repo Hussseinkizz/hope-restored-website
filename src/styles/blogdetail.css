@@ -1,3 +1,8 @@
+
+
+
+
+
 .blog-detail {
   max-width: 800px;
   margin: 40px auto;
@@ -5,27 +10,32 @@
   text-align: center;
 }
 
+/* Responsive Blog Image */
 .blog-image {
   width: 100%;
-  max-height: 400px; /* ✅ Prevents overly large images */
-  object-fit: cover; /* ✅ Ensures the image scales nicely */
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
+/* Blog Title */
 .blog-detail h1 {
   font-size: 2.2rem;
   color: #1E3A8A;
   margin-top: 20px;
 }
 
+/* Blog Content */
 .blog-detail p {
   font-size: 1.1rem;
-  color: #4B5563; /* ✅ Slightly darker for better readability */
+  color: #4B5563;
   margin-top: 15px;
-  line-height: 1.8; /* ✅ Increased for better readability */
-  text-align: justify; /* ✅ Makes long content easier to read */
+  line-height: 1.8;
+  text-align: justify;
+  padding: 0 10px; /* Adds spacing on small screens */
 }
 
+/* Back Button */
 .back-button {
   display: inline-block;
   margin-top: 20px;
@@ -38,5 +48,45 @@
 
 .back-button:hover {
   text-decoration: underline;
-  color: #D97706; /* ✅ Slightly darker on hover for effect */
+  color: #D97706;
+}
+
+/* ✅ RESPONSIVE STYLES */
+@media (max-width: 768px) {
+  .blog-detail {
+    padding: 15px;
+  }
+
+  .blog-detail h1 {
+    font-size: 1.8rem; /* Reduce title size */
+  }
+
+  .blog-detail p {
+    font-size: 1rem;
+    padding: 0 5px; /* Less padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-detail {
+    padding: 10px;
+  }
+
+  .blog-image {
+    max-height: 250px; /* Reduce image height on small screens */
+  }
+
+  .blog-detail h1 {
+    font-size: 1.6rem;
+  }
+
+  .blog-detail p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
 }
