@@ -6,25 +6,25 @@ const programsData = [
     title: "Education Support",
     description:
       "We provide scholarships, school supplies, and mentorship to underprivileged children, empowering them for a brighter future.",
-    image: "/assets/IMG-20241010-WA0025.jpg",
+    image: "/assets/tinified/IMG-20241010-WA0025.jpg",
   },
   {
     title: "Health Care Support",
     description:
       "Through medical camps, healthcare supplies, and awareness programs, we ensure communities receive the medical care they need.",
-    image: "/assets/IMG-20240914-WA0098.jpg",
+    image: "/assets/tinified/IMG-20240914-WA0098.jpg",
   },
   {
     title: "Community Outreach",
     description:
       "We support women through skill development, entrepreneurship training, and mentorship programs to promote self-reliance.",
-    image: "/assets/IMG-20240914-WA0114.jpg",
+    image: "/assets/tinified/IMG-20240914-WA0114.jpg",
   },
   {
     title: "Food & Nutrition",
     description:
       "By providing nutritious meals and sustainable food programs, we help vulnerable families combat food insecurity.",
-    image: "/assets/IMG-20240915-WA0003.jpg",
+    image: "/assets/tinified/IMG-20240915-WA0003.jpg",
   },
 ];
 

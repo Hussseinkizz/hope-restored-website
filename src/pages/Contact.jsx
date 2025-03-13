@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="email-section">
           <h2>Send Us a Message</h2>
           <p>Click the button below to send us an email.</p>
-          <a href="mailto:info@hoperestored.org" className="email-button">
+          <a href="mailto:info@hoperestoreduganda.org" className="email-button">
             Send Email
           </a>
         </div>

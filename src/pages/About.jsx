@@ -7,28 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 const About = () => {
   const testimonials = [
     {
-      image: "/assets/IMG_0477.JPG",
+      image: "/assets/tinified/IMG_0477.JPG",
       quote:
         "HOPE RESTORED changed my life by providing me with education and opportunities!",
-      name: "Beneficiary.",
-    },
-    {
-      image: "/assets/IMG_0481.JPG",
-      quote:
-        "I have gained school requirements for my education!",
-      name: "Beneficiary.",
-    },
-    {
-      image: "/assets/IMG_0299.JPG",
-      quote:
-        "Thanks to their Outreach programs, my family received essential basic needs.",
-      name: "Beneficiary.",
-    },
-    {
-      image: "/assets/IMG_0478.JPG",
-      quote:
-        "Hope Restored provided girl child health care, thanks!",
-      name: "Beneficiary.",
+      name: "Nalugo Jorine.",
     },
   ];
 
@@ -57,10 +39,11 @@ const About = () => {
         <div className="text-content">
           <h2>Who We Are</h2>
           <p>
-            <strong>HOPE RESTORED</strong> is a non-profit organization
-            dedicated to transforming lives by promoting positive social change
-            through <strong>education and empowerment programs</strong>. We work
-            closely with underprivileged communities, providing access to{" "}
+            We are a non-profit organisation that promotes Jesus to
+            underprivileged families and children through{" "}
+            <strong>active love, Hope and Generosity</strong> to restore broken
+            dreams for a transformed community and nation. By working closely
+            with underprivileged communities, we provide access to{" "}
             <strong>
               quality learning opportunities, essential health care, and
               skill-building initiatives{" "}
@@ -79,13 +62,18 @@ const About = () => {
         <div className="mission">
           <h3>🎯 Our Mission</h3>
           <p>
-            We are dedicated to supporting underprivileged communities through
-            education, healthcare, and economic empowerment.
+            Empower families to become nurturing centers for love, hope and
+            godly grooming <br/>
+            and equip every child with skills that
+            enable them thrive holistically through the help of God.
           </p>
         </div>
         <div className="vision">
           <h3>🌍 Our Vision</h3>
-          <p>A world where every individual has the opportunity to thrive.</p>
+          <p>
+            To promote Jesus to underprivileged families and children through <br/>
+            active Love, Hope and Generosity
+          </p>
         </div>
       </section>
 
@@ -119,7 +107,7 @@ const About = () => {
         <div className="impact-stats">
           <div className="stat">
             <h3>📖 30+</h3>
-            <p>Education workshops conducted</p>
+            <p>Education Education Beneficiaries</p>
           </div>
           <div className="stat">
             <h3>🏥 20+</h3>
@@ -137,46 +125,46 @@ const About = () => {
         <h2>Meet Our Team</h2>
         <div className="team-members">
           <div className="team-card">
-            <img src="/assets/IMG_0598.JPG" alt="" />
+            <img src="assets/tinified/IMG_0598.JPG" alt="" />
             <h3>Bravel Lubega</h3>
             <p>Co-founder &</p>
             <p>Senior Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0456.JPG" alt="" />
+            <img src="assets/tinified/IMG_0456.JPG" alt="" />
             <h3>Mukalazi Brian</h3>
             <p>Managing Director &</p>
             <p>Project Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="assets/IMG_0448.JPG" alt="" />
+            <img src="assets/tinified/IMG_0448.JPG" alt="" />
             <h3>Waswa Jackson</h3>
             <p>Child Advocate &</p>
             <p>Assistant Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="assets/IMG_0450.JPG" alt="" />
+            <img src="assets/tinified/IMG_0450.JPG" alt="" />
             <h3>Bogere Robert</h3>
             <p>Pastor &</p>
             <p>Board Member</p>
-          </div> 
+          </div>
           <div className="team-card">
-            <img src="/assets/IMG_0387.JPG" alt="" />
+            <img src="assets/tinified/IMG_0387.JPG" alt="" />
             <h3>Jowie</h3>
             <p>Procurement officer</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0329.JPG" alt="" />
+            <img src="assets/tinified/IMG_0329.JPG" alt="" />
             <h3>Joanna</h3>
             <p>Volunteer's Liason</p>
           </div>
           <div className="team-card">
-            <img src="assets/_image.jpg" alt="" />
+            <img src="assets/tinified/_image.jpg" alt="" />
             <h3>Melchior</h3>
             <p>Organization Communicator</p>
           </div>
           <div className="team-card">
-            <img src="assets/image_.jpg" alt="" />
+            <img src="assets/tinified/image_.jpg" alt="" />
             <h3>Zipporah</h3>
             <p>Administrator</p>
           </div>

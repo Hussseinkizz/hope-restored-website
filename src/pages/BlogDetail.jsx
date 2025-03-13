@@ -1,74 +1,40 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import "../styles/blogdetail.css";
-import blogImage1 from "/assets/IMG-20240915-WA0159.jpg";
-import blogImage2 from "/assets/IMG-20240915-WA0003.jpg";
-import blogImage3 from "/assets/IMG-20241010-WA0025.jpg";
-
-
 
 const blogPosts = [
   {
     id: 1,
-    title: "Restoring Hope: Providing Basic Needs to Underserved Communities",
-    description:
-      "HOPE RESTORED is committed to uplifting vulnerable communities by providing essential needs such as food, clean water, clothing, and shelter, ensuring a foundation for sustainable growth.",
-    image: blogImage1,
-    content: `
-      For many families in underserved communities, access to basic needs such as food, clean water, clothing, and shelter remains a daily struggle. 
-      At HOPE RESTORED, we believe that no one should have to choose between survival and a chance for a better future.
-
-      Through our community outreach programs, we provide immediate relief by distributing food supplies, offering access to clean drinking water, and ensuring that families have clothing and safe living conditions. 
-      But beyond immediate aid, our goal is to create long-term solutions that foster self-sufficiency.
-
-      By integrating skills training, mentorship, and livelihood programs into our outreach, we empower individuals to break free from the cycle of poverty. 
-      A child who receives a nourishing meal can focus on education. A mother with access to clean water can improve her family's health. 
-      A young adult equipped with vocational training can secure a stable income.
-
-      Change begins with meeting the most basic human needs, and together, we can build a future where every individual has the opportunity to thrive. 
-      Join us in making a difference—your support can provide hope, dignity, and lasting change for those in need.
-    `,
-  },
-  {
-    id: 2,
-    title: "Providing Food and Nutrition to Underprivileged Communities",
-    description:
-      "Our latest food and nutrition outreach program has brought hope and nourishment to hundreds of families in need.",
-    image: blogImage2,
-    content: `
-      Food insecurity remains one of the biggest challenges in underprivileged communities, 
-      affecting children, the elderly, and entire families. At HOPE RESTORED, we are committed to addressing 
-      this crisis by providing nutritious meals and essential food supplies to those who need them most.
-
-      Through our recent outreach program, we distributed food packages to hundreds of families, 
-      ensuring they have access to healthy, balanced meals. We also provide nutritional education to help 
-      families make the most of available resources. Proper nutrition is essential for physical and mental 
-      development, especially for children, and we are dedicated to making sure no one goes hungry.
-
-      Your support can help us reach even more families and expand our impact. Together, we can fight hunger 
-      and bring hope to those in need.
-    `,
-  },
-  {
-    id: 3,
     title: "How Education Can Transform Lives",
     description:
       "Education is a powerful tool in breaking the cycle of poverty, creating opportunities for children and adults alike.",
-    image: blogImage3,
-    content: `
-      Education is the foundation of a brighter future. At HOPE RESTORED, we are passionate about 
-      making quality education accessible to children in underserved communities. Our programs focus on 
-      providing school supplies, scholarships, and mentorship to ensure that every child has a chance to learn 
-      and thrive.
-
-      For many children, access to education means the difference between a life of poverty and a future 
-      filled with opportunities. We work closely with schools, parents, and communities to support 
-      children through their educational journey. Beyond primary education, we also offer vocational 
-      training and adult literacy programs to empower individuals with skills for lifelong success.
-
-      Investing in education means investing in the future. Join us in transforming lives through 
-      education and creating lasting change in our communities.
-    `,
+    image: "/assets/tinified/IMG_0477.JPG",
+    content: `Nalugo Jorine is a bright and determined girl who lives with her father, Mr. Musisi Denis, and two relatives, Nambasumba Jovia and Katongole Joram. Life hasn’t been easy for her since her mother left for Kampala two years ago and never returned. She misses her mother deeply and often wishes she could come back to visit.
+      Despite this, Jorine remains focused on her education. She loves doing her homework and reading the Bible, as her father encourages them to share God’s Word at home. Her favorite scripture, Psalms 103:2-3, reminds her to always be grateful for God’s blessings and healing.
+      Jorine dreams of becoming a lecturer in the future. She values education and feels heartbroken whenever she misses school. That’s why she was so happy when Hope Restored Uganda supported her with school supplies like books and pencils. Seeing her father’s joy during the Back-to-School outreach made her feel loved and cared for.
+      To Jorine, Hope Restored is more than just an organization—it is a family that has embraced her with love and support. With faith, education, and a strong community around her, she believes she can achieve her dreams and inspire others along the way.`,
+  },
+  {
+    id: 2,
+    title: "Making Menstrual Kits accessible for all women",
+    description:
+      " Menstrual hygiene is a matter of dignity, not just necessity.",
+    image:
+      "/assets/tinified/WhatsApp Image 2025-03-13 at 13.45.55_ca0314b6.jpg",
+    content: `At Hope Restored Uganda, we believe that menstrual hygiene is a matter of dignity, not just necessity. 
+    Many girls in underprivileged communities miss school due to a lack of sanitary products, clean water, and proper hygiene education. 
+    Through our Menstrual Hygiene Program, we provide reusable sanitary pads, hygiene kits, and awareness sessions to ensure that every girl can manage her period safely and confidently. 
+    By supporting this initiative, you help keep girls in school and empower them to reach their full potential.
+    Menstruation should never be a source of shame or limitation. At Hope Restored Uganda, we educate both girls and boys about menstrual health to break the stigma and create supportive environments in schools and communities. Through our outreach programs, we engage teachers, parents, and community leaders to encourage open conversations and ensure that no girl feels ashamed or excluded because of her period. Your support helps us continue these awareness campaigns, making menstrual health a normal and respected part of life.`,
+  },
+  {
+    id: 3,
+    title: "Memorable Christmas for every child",
+    description:
+      "Cultivating joy and belonging during christmas for all children.",
+    image:
+      "/assets/tinified/WhatsApp Image 2025-03-13 at 14.03.11_0fc10945.jpg",
+    content: `For many families in our community, Christmas comes and goes like any other day, with little to no celebration. At Hope Restored Uganda, we step in to make Christmas a time of joy and belonging. We host a special Christmas gathering where underprivileged children and their families receive gifts, enjoy meals, and take part in worship and fellowship. It’s more than a celebration—it’s a way of demonstrating Christ’s love and bringing renewed hope to those who need it most.`,
   },
 ];
 
