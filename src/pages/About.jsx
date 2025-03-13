@@ -137,46 +137,46 @@ const About = () => {
         <h2>Meet Our Team</h2>
         <div className="team-members">
           <div className="team-card">
-            <img src="/assets/IMG_0598.JPG" alt="" />
+            <img src="assets/tinified/IMG_0598.JPG" alt="" />
             <h3>Bravel Lubega</h3>
             <p>Co-founder &</p>
             <p>Senior Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0456.JPG" alt="" />
+            <img src="assets/tinified/IMG_0456.JPG" alt="" />
             <h3>Mukalazi Brian</h3>
             <p>Managing Director &</p>
             <p>Project Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="assets/IMG_0448.JPG" alt="" />
+            <img src="assets/tinified/IMG_0448.JPG" alt="" />
             <h3>Waswa Jackson</h3>
             <p>Child Advocate &</p>
             <p>Assistant Community Coordinator</p>
           </div>
           <div className="team-card">
-            <img src="assets/IMG_0450.JPG" alt="" />
+            <img src="assets/tinified/IMG_0450.JPG" alt="" />
             <h3>Bogere Robert</h3>
             <p>Pastor &</p>
             <p>Board Member</p>
           </div> 
           <div className="team-card">
-            <img src="/assets/IMG_0387.JPG" alt="" />
+            <img src="assets/tinified/IMG_0387.JPG" alt="" />
             <h3>Jowie</h3>
             <p>Procurement officer</p>
           </div>
           <div className="team-card">
-            <img src="/assets/IMG_0329.JPG" alt="" />
+            <img src="assets/tinified/IMG_0329.JPG" alt="" />
             <h3>Joanna</h3>
             <p>Volunteer's Liason</p>
           </div>
           <div className="team-card">
-            <img src="assets/_image.jpg" alt="" />
+            <img src="assets/tinified/_image.jpg" alt="" />
             <h3>Melchior</h3>
             <p>Organization Communicator</p>
           </div>
           <div className="team-card">
-            <img src="assets/image_.jpg" alt="" />
+            <img src="assets/tinified/image_.jpg" alt="" />
             <h3>Zipporah</h3>
             <p>Administrator</p>
           </div>
