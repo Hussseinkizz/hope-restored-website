@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="navbar__left">
         <img
           className="logo"
-          src="/assets/WhatsApp Image 2025-02-20 at 10.41.53_47cb4832.jpg"
+          src="/assets/WhatsApp Image 2025-03-13 at 10.13.21_8aad54dd.jpg"
           alt=""
         />
       </div>

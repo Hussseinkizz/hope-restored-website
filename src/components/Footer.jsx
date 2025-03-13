@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Contact Us</h3>
           <p>
-            <Email /> info@hoperestored.org
+            <Email /> info@hoperestoreduganda.org
           </p>
           <p>
             <Phone /> +256 789 745 530 <br/>
